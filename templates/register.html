@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <div class="container">
+        <h1>Register</h1>
+        <form action="" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="password" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="password" name="confirm_password" placeholder="confirm password" class="form-control">
+            </div>
+            <button class="btn btn-primary" type="submit">Register</button>
+        </form>
+    </div>
+{% endblock %}
